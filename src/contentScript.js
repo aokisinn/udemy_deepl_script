@@ -19,7 +19,7 @@ const observer = new MutationObserver(function () {
     observer.disconnect();
     $.post("https://api-free.deepl.com/v2/translate", {
       // TODO ここDeeplのAPIキーに置き換え
-      auth_key: "b339986d-280b-665d-7534-5e389d0b706f:fx",
+      auth_key: "",
       text: nowString,
       target_lang: "JA",
     })
